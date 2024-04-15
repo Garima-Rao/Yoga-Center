@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container .nav1 a{
+text-decoration: none;
+color: #32774d;
+padding: 30px;
+font-size: 20px;
+}
+.nav1 a,i{
+    margin-top: 20px;
+    padding: 0px 0px 0px 20px;  
+}
+.container i{
+  color: #32774d;
+  font-size: 20px;
+  text-align: end;
+  /* margin-left: 15px; */
+}
+.bgimage{
+    height:800px;
+    background-image: url("https://livewithyoga.org/wp-content/uploads/2024/03/4-1.png");
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+}
+input[type=button]{
+    background-color: #32774d;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    height: 50px;
+    width: 140px;
+    border-radius: 20px;
+    color: white;
+}
+input[value="Call now"]{
+    background-color: rgb(204, 63, 63);
+    margin-left: 100px;
+}
+/* .nav2{
+    position: fixed; 
+} */
+.nav2 img{
+    height: 50px;
+}
+.nav2 a{
+    text-decoration: none;
+    color: #32774d;
+   font-size: 18px;
+}
+.nav2 a,input{
+    margin-left: 25px;
+}
+.body-info{
+
+    text-align: left;
+    /* margin-right: -30px; */
+    margin-top: 100px;
+    margin-left: 700px;
+}
+.body-info h1{
+    font-size: 70px;
+    /* color: #404b48; */
+}
+.body-info a{
+    text-decoration: none;
+}
+.body-a p{
+    color: #404b48;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.box2{
+    width: 90%;
+    background-color: gainsboro;
+    margin-left: 5%;
+}
+.box2 .table-cell1{
+ font-size: 20px;
+}
+table td iframe{
+    margin-left: 150px;
+}
+.table-cell1,h1,h5,p,img{
+    margin-left: 70px;
+}
+ .box3-content{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.box3-content img{
+    height:50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+ .box3-content h1{
+    font-size: 40px;
+    color: #404b48;
+    margin-bottom: 30px;
+} 
+.images{
+    margin-left: 50px;
+}
+.images img{
+    margin: 0px; 
+}
+.img-head span{
+    text-align: center;
+}
+/* .box3-content img{
+    height: 50px;
+    margin-top: 30px;
+} */
+.table-cell3{
+    padding: 30px;
+}
+.table-cell3 p{
+    padding: 30px;
+}
+.table-cell3 button{
+    color: white;
+    background-color: #404b48;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    box-shadow: 0px 10px 20px rgba(174, 208, 201,100);
+}
+.box5{
+    padding: 50px;
+}
+.box5 h1{
+    color: rgb(63, 138, 141);
+}
+.box6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #91b1a8be;  
+    height: 200px;
+    padding: 20px;
+}
+.box6 img{
+    height: 80px;
+}
+.box7 table{
+   /* margin: auto; */
+   margin-top: 100px;
+}
+.box7 h3{
+    margin-left: 70px;
+}
+.table-cell4 input,textarea{
+    border: none;
+    border-bottom:1px solid #404b48;
+    width: 500px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.table-cell4 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #32774d;
+    border: none;
+    color: white;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.box8{
+    background-color: #aaccc267;
+    /* border-top-left-radius: 10px; */
+}
+.fa-phone,.fa-envelope{
+    margin-left: -15px;
+    margin-right: 10px;
+}
+.box8 table{
+    padding: 30px;
+}
+.box8 img{
+    margin-left: 500px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.footer1{
+    background-color: #404b48;
+    height: 500px;
+    /* padding: 50px; */
+}
+.footer1-col1 h4{
+    margin-left: 70px;
+    /* margin-top: 10px; */
+    font-size: 20px;
+}
+
+.footer1-col2,a,p{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: cadetblue;
+    /* margin-left: 10px; */
+    /* margin-bottom: 100px; */
+    margin-top: 10px;
+}
+.footer1-col2 h4{
+    margin-top: -110px;
+     margin-bottom: 10px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+.footer1 button{
+    background-color: #6574709a;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    margin: 20px 0px 20px 70px;
+}
+.footer2{
+    color: white;
+    background-color: black;
+    height: 80px;
+    padding: 30px;
+}
